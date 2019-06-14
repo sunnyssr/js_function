@@ -330,7 +330,7 @@ let performMath1 = function(operation, x, y) {
 }
 
 // Arrow Function
-let performMath2 = (operation, x, y) => (((operation == "add")&&(x+y))||((operation == "subtract")&&(x-y))||((operation=="multiply")&&(x*y))||((operation=="divide")&&(x/y))||0);
+let performMath2 = (operation, x, y) => (((operation == "add")&&(console.log(x+" + "+y+" = "+(x + y))||(x+y)))||((operation == "subtract")&&(console.log(x+" - "+y+" = "+(x - y))||(x-y)))||((operation=="multiply")&&(console.log(x+" * "+y+" = "+(x * y))||(x*y)))||((operation=="divide")&&(console.log(x+" / "+y+" = "+(x - y))||(x/y)))||0);
 
 // Arrow Function with Curly Bracket
 let performMath3 = (operation, x, y) => {
